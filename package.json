@@ -1,8 +1,8 @@
 {
-  "name": "ra-hw-1_components_1-store-func",
+  "name": "ra-hw-1_components_2-store-class",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://igor-chazov.github.io/ra-hw-1_components_1-store-func",
+  "homepage": "https://igor-chazov.github.io/ra-hw-1_components_2-store-class",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "eject": "react-scripts eject" 
   },
   "eslintConfig": {
     "extends": [

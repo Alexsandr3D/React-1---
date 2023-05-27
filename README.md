@@ -1,12 +1,10 @@
 # 1. Домашнее задание к лекции «Компоненты»
 
-[![Build status](https://ci.appveyor.com/api/projects/status/heq4e5ct3tyqk5qw?svg=true)](https://ci.appveyor.com/project/igor-chazov/ra-hw-1-components-1-store-func) [[GithubPages](https://igor-chazov.github.io/ra-hw-1_components_1-store-func)]
+[![Build status](https://ci.appveyor.com/api/projects/status/gk3o6n8pel1asix0?svg=true)](https://ci.appveyor.com/project/igor-chazov/ra-hw-1-components-2-store-class) [[GithubPages](https://igor-chazov.github.io/ra-hw-1_components_2-store-class)]
 
-### 1.1 Страница интернет-магазина (функциональный компонент)
+## 1.2 Страница интернет-магазина (class-based компонент)
 
----
-
-Необходимо создать React-компонент `ShopItemFunc` (функциональный компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
+Необходимо создать React-компонент `ShopItemClass` (class-based компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
 ![Внешний вид страницы после реализации компонента](./assets/preview.png)
 
 ## Пример использования
@@ -29,7 +27,7 @@ return (
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemFunc item={item} />
+      <ShopItemClass item={item} />
     </div>
   </div>
 )
